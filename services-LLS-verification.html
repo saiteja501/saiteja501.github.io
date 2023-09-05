@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Land Matters</title>
+</head>
+
+<body>
+  <!-- NavBar -->
+
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top lm-navbar">
+         <div class="container">
+            <a class="navbar-brand" href="Index.html">
+               <!-- <img class="img-fluid" src="./Images/logo.png" alt="logo"> -->
+               <img class="img-fluid lm-logo" src="./Images/logo-green.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link header-link" href="about-us.html">About</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="services.html" role="button" data-toggle="dropdown" aria-expanded="false"> Services </a>
+                  <ul class="dropdown-menu">
+                     <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle lm-multi-level" href="services-LLS.html" role="button" data-toggle="dropdown" aria-expanded="false"> Land Legal Services </a>
+                        <ul class="dropdown-menu">
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="services-LLS-landCopyCollect.html" role="button" data-toggle="dropdown" aria-expanded="false"> Land Document Collection at Your Door Step </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Get Instant Verification of Land Documents </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Land Legal Opinion </a>
+                           </li>
+                             <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Land Review and Consultation </a>
+                           </li>
+                             <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Title Opinion Report / Due Diligence </a>
+                           </li>
+                             <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Land Legal Advice by Phone </a>
+                           </li>
+                               <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Drafting All Types of Land Agreements </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <!-- Land Management Services -->
+                     <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Land Management Services </a>
+                        <ul class="dropdown-menu">
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Tenant Management </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Digital Land Records Locker System </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Land Records Updation </a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Construction </a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Open Plot Layouting </a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Property Valuation </a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Geo-Tagging </a>
+                           </li>
+                              <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Property Management</a>
+                           </li>
+                        </ul>
+                     </li>
+                      <!-- Realty Marketing -->
+                      <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Realty Marketing</a>
+                        <ul class="dropdown-menu">
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Legally Verified Listed Lands </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Digital Marketing </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Rating and Review of Property Documentation </a>
+                           </li>
+                             <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Geo Marketing </a>
+                           </li>
+                                <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Land Development Projects </a>
+                           </li>
+                        </ul>
+                     </li>
+                      <!-- Land Survey -->
+                      <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Land Survey</a>
+                        <ul class="dropdown-menu">
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Cadastral Survey </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Subdivision Survey </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Topographic Survey </a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Layout Marking & Demarcation </a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Geo-Tagging / Geo-Fencing </a>
+                           </li>
+                            <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Boundary Survey </a>
+                           </li>
+                             <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Drone Survey </a>
+                           </li>
+                             <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Open Plot Availability System </a>
+                           </li>
+                        </ul>
+                     </li>
+                      <!-- Permissions -->
+                      <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Permissions</a>
+                        <ul class="dropdown-menu">
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Residential </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Commercial </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Industrial </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Villa Projects </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Open Plot Layout </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <!--  Financial Services -->
+                     <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Financial Services</a>
+                        <ul class="dropdown-menu">
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Home Loans </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Loan Against Property </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> Project Funding </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link  lm-multi-level" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Cash Credit / Overdraft </a>
+                           </li>
+                        </ul>
+                     </li>
+                    
+
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link header-link" href="contact.html">Contact</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link header-link lm-header-btn" href="https://forms.gle/R6FxVHFEPJxppK336">Get Quote <i class="fa-solid fa-file-invoice"></i></a>
+               </li>
+            </div>
+         </div>
+      </nav>
+
+
+  <!-- breadcrumb -->
+
+  <!-- <div class="lm-breadcrumb">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">About us</li>
+        </ol>
+      </nav>
+    </div>
+  </div> -->
+
+  <!-- About-us banner -->
+
+
+  <section class="no-section-margin">
+    <div class="inner-banner">
+      <div>
+        <img class="img-fluid w-100" src="./Images/about-us-banner.jpg" alt="About-us">
+      </div>
+      <div class="container">
+        <div class="inner-banner-heading">
+          <h1>Get Instant Verification of Land Documents
+          </h1>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Service Details -->
+
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="service-details-block">
+              <div>
+                <img class="img-fluid" src="./Images/doc-ver.jpg" alt="Legal">
+              </div>
+              <div class="service-details-content">
+                <h3 class="lm-headings">
+                  Get Instant Verification of Land Documents
+                </h3>
+                <p class="lm-p">Land Document collection ensures that the property involved in business and purchase is free from disputes and 
+                  lawsuits and hence offers a hassle-free Land/property buying experience for you. We connect you to experienced lawyers.
+                   The documents are collected and all the papers are examined.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="row">
+             <!-- card-1 -->
+            <div class="col-12">
+              <div class="icon-card">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="icon-card-block">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <h4 class="lm-sub-headings">E- Mail</h4>
+                    <p class="lm-p">harishraju2309@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+              <!-- card-1 -->
+              <div class="col-12">
+                <div class="icon-card">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="icon-card-block">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                    </div>
+                    <div class="col-9">
+                      <h4 class="lm-sub-headings">Phone</h4>
+                      <p class="lm-p">+91-8035571528</p>
+                      <p class="lm-p">+91-7349380132</p>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+                <!-- card-1 -->
+            <div class="col-12">
+              <div class="icon-card">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="icon-card-block">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <h4 class="lm-sub-headings">Address</h4>
+                    <p class="lm-p"> No.90 fountain road london SW170HN, United Kingdome</p>
+                    <hr>
+                    <p class="lm-p"> No.302, Amma, No.7, 2nd Cross, 1st main, lower palace orchards, sadashivanagar bengalore 560003</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+              <!-- card-1 -->
+              <!-- <div class="col-12">
+                <div class="icon-card">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="icon-card-block">
+                        <i class="fa-solid fa-brain"></i>
+                      </div>
+                    </div>
+                    <div class="col-9">
+                      <h4 class="lm-sub-headings">Send Quries</h4>
+                      <p class="lm-p">Get Expert opinion and much more on a single platform</p>
+                    </div>
+                  </div>
+                </div>
+  
+              </div> -->
+          </div>
+        </div>
+      </div>
+  </section>
+
+  </div>
+
+
+
+
+
+
+
+  <!-- Subscribe -->
+  <section class="no-section-margin">
+    <div class="subscribe-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <h3 class="lm-headings color-white subscribe-title">Subscribe </h3>
+            <p class="lm-p color-black fw-6">Want to be notified about our News. Just sign up and we'll send you a
+              notification by email.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="lm-footer">
+      <div class="container footer-border">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-heading">
+              <h3>ABOUT US </h3>
+              <p>Landspace aims to provide “one-stop solutions” for land related services that enhance your business
+                objectives. Our mission is to provide property allied services platform that will enable our clients to
+                access up-to-date land related information and services across Telangana. Landspace provides expert
+                research, advisory and property services solutions to inward investors, developers and individuals.</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-heading">
+              <h3>CONTACT INFO </h3>
+              <ul class="footer-contact-list">
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <span>Phone :</span>
+                  <a href="">8282826766</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span> Mail :</span>
+                  <a href=""> info@landpsaceprojects.com</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span> Address :</span>
+                  <a href=""> GAR-71 Liberty Place, Uppal Bhagath, Hyderabad, Telangana-500039</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-heading">
+              <h3>CONTACT INFO </h3>
+              <ul class="footer-list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Careers</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container footer-social">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="footer-follow-us">
+              <p>Follow Us :</p>
+              <ul class="social-media-ul">
+                <li class="social-media-block">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+                <li class="social-media-block">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+                <li class="social-media-block">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+                <li class="social-media-block">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <button class="btn btn-pdf" id="downloadButton"> <i class="fa-solid fa-file-pdf"></i>COMPANY
+              PRESENTATION.PDF <i class="fa-solid fa-caret-right fa-icon-right"></i></button>
+            <button class="btn btn-pdf"> <i class="fa-solid fa-cart-shopping"></i>DOWNLOAD BROCHURE.PDF <i
+                class="fa-solid fa-caret-right fa-icon-right"></i></button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="no-section-margin">
+    <div class="lm-copy-right">
+      <p>© <span>LandMatters</span> LandMatters PROJECTS 2023. ALL RIGHTS RESERVED.</p>
+    </div>
+  </section>
+  <!-- stats - count particles -->
+  <!-- <div class="count-particles"><span class="js-count-particles">--</span> particles
+         </div> -->
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <!-- <script src="https://threejs.org/examples/js/libs/stats.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="./JS/script.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
