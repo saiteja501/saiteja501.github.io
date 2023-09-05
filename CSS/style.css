@@ -735,6 +735,13 @@ canvas {
 	background-position: 50% 50%;
 }
 
+@media (max-width: 767px) {
+	#particles-js  {
+		height: 400px;
+	}
+}
+
+
 /* carousel */
 
 .review-section .wrapper {
@@ -975,7 +982,7 @@ footer {
 	color: #2A7342;
 }
 
-.footer-list li::before {
+.footer-list li a::before {
 	content: '-';
 	margin-right: 15px;
 	color: #2A7342;
