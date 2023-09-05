@@ -957,16 +957,21 @@ footer {
 
 .footer-list {
 	padding-left: 0px;
+	list-style: none;
 }
 
-.footer-list li {
-	color: #fff;
-	font-size: 16px;
-	list-style: none;
+.footer-list li{
 	margin-bottom: 15px;
 }
 
-.footer-list li:hover {
+.footer-list li a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	
+}
+
+.footer-list li a:hover {
 	color: #2A7342;
 }
 
