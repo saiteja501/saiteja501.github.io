@@ -1372,3 +1372,21 @@ footer {
 .lm-sub-dropdown{
     top: -13px !important;
 }
+
+.lm-activities{
+	/* padding-left: 0; */
+	margin: 10px 0px;
+}
+
+.lm-activities li{
+	
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #5e646a;
+}
+
+.lm-align-center{
+	display: flex;
+    align-items: center;
+}
+
