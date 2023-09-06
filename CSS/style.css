@@ -143,6 +143,12 @@
 
 }
 
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+	.lm-hero-image-text{
+		top: 17%;
+	}
+}
 .lm-hero-image-text h3 span {
 	color: #2A7342;
 	font-size: 49px;
